@@ -4,8 +4,16 @@
     font-family: 'open sans', sans-serif;
     font-family: 'work sans', sans-serif;
 }
-.btn primary{
-    
+.btn-primary{
+    border-radius: 8px;
+    color:red;
+    font-size: 1.25rem;
+    background: red;
+    padding: 20px 25px;
+    color:white;
+    cursor: pointer;
+    border:0;
+
 } 
 
 
@@ -53,3 +61,100 @@ nav li a{
 .banner-description{
     color: #727272;
 }
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+.sagor{
+     margin-top:auto;
+     color:red;
+    text-align: center;
+}
+
+/* maine style */
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+/* teams style */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding-right:70px;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+
+}
+.teams-title .Quick list{
+    color:#727272;
+    font-weight: 500;
+}
+.teams-title .text-features{
+    color: green;
+    font-weight: 700;
+    }
+    /* feature section styles */
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+
+}
+.features-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: gold;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+}
+.ten-years-badge{
+    margin-left: 690px;
+    border-radius: 8px;
+    background: red;
+    color:white;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+
+
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+facts-card-container .card-title{
+    font-weight: 600;
+
+}
+
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    color:blue;
+             
+}
+.footer{
+    box-sizing: border-box;
+}
+
+
+
